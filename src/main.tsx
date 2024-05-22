@@ -9,6 +9,7 @@ import Classrooms from "./pages/classrooms/Classrooms.tsx";
 import Subjects from "./pages/subjects/Subjects.tsx";
 import Users from "./pages/users/Users.tsx";
 import Settings from "./pages/settings/Settings.tsx";
+import Profile from "./pages/profile/Profile.tsx";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "settings",
         element: <Settings />,
+      },
+      {
+        path: "profile",
+        element: <Profile />,
       },
     ],
   },

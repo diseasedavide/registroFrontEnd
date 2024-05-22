@@ -1,4 +1,4 @@
-import { Button, Drawer, Sidebar, TextInput } from "flowbite-react";
+import { Drawer, Sidebar, TextInput } from "flowbite-react";
 import {
   HiChartPie,
   HiClipboard,
