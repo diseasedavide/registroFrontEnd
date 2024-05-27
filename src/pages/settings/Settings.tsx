@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react'
 
-const Settings = () => {
-  return <div>Settings</div>;
-};
+const Settings: React.FC = () => {
 
-export default Settings;
+  //useAuthGuard(false)
+
+  return (
+    <div>Settings</div>
+  )
+}
+
+export default Settings
